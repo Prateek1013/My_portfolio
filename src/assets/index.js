@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import linkedin from "./linkedin.png";
 import gmail from "./gmail.png"
+import my from "./my.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -21,7 +22,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import scb from "./scb.png"
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -42,12 +43,14 @@ export {
   close,
   css,
   docker,
+  scb,
   figma,
   git,
   gmail,
   html,
   javascript,
   mongodb,
+  my,
   nodejs,
   reactjs,
   redux,

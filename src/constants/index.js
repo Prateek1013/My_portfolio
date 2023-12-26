@@ -1,8 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
@@ -13,16 +9,13 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
+  scb,
   starbucks,
   tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -40,24 +33,6 @@ export const navLinks = [
   },
 ];
 
-const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
-];
 
 const technologies = [
   {
@@ -97,16 +72,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -118,7 +85,7 @@ const experiences = [
   {
     title: "React.js Developer",
     company_name: "Starbucks",
-    icon: starbucks,
+    icon: scb,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -257,4 +224,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { technologies, experiences, projects };
