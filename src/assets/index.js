@@ -27,10 +27,13 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import quizapp from "./quizapp.png";
+import algoDs from "./algoDs.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import sudoku from "./sudoku.png";
+import employee_manager from "./employee_manager.png"
 
 export {
   logo,
@@ -64,5 +67,9 @@ export {
   carrent,
   jobit,
   tripguide,
-  linkedin
+  linkedin,
+  algoDs,
+  quizapp,
+  sudoku,
+  employee_manager
 };

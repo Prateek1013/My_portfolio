@@ -16,6 +16,11 @@ import {
   carrent,
   jobit,
   tripguide,
+  shopify,
+  algoDs,
+  quizapp,
+  sudoku,
+  employee_manager,
 } from "../assets";
 
 export const navLinks = [
@@ -83,86 +88,67 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Software developer intern",
     company_name: "Starbucks",
     icon: scb,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2023 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+     `Employed class-based and lifecycle components within React.js to proficiently create the reports and enquiry segment
+     of the SCPay dashboard interface, ensuring robust functionality and an enhanced user experience`,
+     `Designed a partial search feature using vanilla JavaScript, establishing connection to a PostgreSQL database which
+     retrieves positively matched files, presenting results in both tabular and list views for enhanced usability.`,
+     `Developed an attachment UI screen from scratch using reactjs and async functional components allowing the user to
+     view,edit or download in various formats within the same page space for ivault.`,
+     `Handled numerous api endpoints to fetch data from the UI/UX database for the field names and variables that is dis-
+     played in various screens/modals inlcuding dashboard, reports, enquiry and maintenance queue.`
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Fullstack web Developer",
+    company_name: "NearBond",
+    icon: shopify,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "October 2023 - November 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      `Part of Full stack development team responsible for building an e-commerce website from scratch using MERN stack.`,
+      `Created admin,customer and seller Dashboard pages using React.js and MUI based custom components.`,
+      `Leveraged useContext in React to mainatin the global state of the cart and authentication token within user module.`,
+      `Handled api routes in the backend Node.js server for authentication using JWT tokens and interacted with Mongodb database using Primsa ORM for the product inventory`
     ],
   },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
 ];
 
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Algo-DS search engine",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    `A nodeJS search engine which allows user to give input regarding any question on cp and
+     this app will search through thousands of questions on online platform like leetcode,
+    CSES,etc and give top matching results
+    `,
     tags: [
       {
-        name: "react",
+        name: "node.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "webscraping",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: algoDs,
+    source_code_link: "https://github.com/Prateek1013/Algo-DS-Search-engine",
   },
   {
-    name: "Job IT",
+    name: "QuizApp",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    `A MERN based application where user can attempt quizzes on various topics and get the score along with time taken.`,
     tags: [
       {
         name: "react",
@@ -177,20 +163,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: quizapp,
+    source_code_link: "https://github.com/Prateek1013/QuizApp",
   },
   {
-    name: "Trip Guide",
+    name: "Sudoku Solver",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    `A reactJS based application that solves the Sudoku grid instantly using Tail recursion in javascript`,
     tags: [
       {
-        name: "nextjs",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tail recursion",
         color: "green-text-gradient",
       },
       {
@@ -198,30 +184,39 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: sudoku,
+    source_code_link: "https://github.com/Prateek1013/Sudoku_solver",
   },
   {
-    name: "Trip Guide",
+    name: "Employee_manager",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    ``,
     tags: [
       {
-        name: "nextjs",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name:'node.js',
+        color:'pink-text-gradient'
+      },
+      {
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "redux-toolkit",
         color: "pink-text-gradient",
       },
+      {
+        name:'restapi',
+        color:'blue-text-gradient'
+      }
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: employee_manager,
+    source_code_link: "https://github.com/Prateek1013/Heli_frontend",
   },
+
 ];
 
 export { technologies, experiences, projects };
