@@ -89,7 +89,7 @@ const technologies = [
 const experiences = [
   {
     title: "Software developer intern",
-    company_name: "Starbucks",
+    company_name: "Standard Chartered GBS",
     icon: scb,
     iconBg: "#383E56",
     date: "May 2023 - July 2023",

@@ -75,9 +75,9 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
-        <div style={{display:'inline-block',columnGap:50}}>
+        <div >
           <div>
-          <a href="https://github.com">
+          <a href="https://github.com/Prateek1013" target="_blank">
             <img
             style={{marginLeft:'150px'}}
               src={github}
@@ -87,7 +87,7 @@ const Contact = () => {
           </a>
           </div>
           <div>
-          <a>
+          <a href="https://www.linkedin.com/in/prateek-034693202/" target="_blank">
             <img
             style={{marginLeft:'152px'}}
               src={linkedin}
@@ -97,7 +97,7 @@ const Contact = () => {
           </a>
           </div>
           <div>
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=prateek9771196112@gmail.com">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=prateek9771196112@gmail.com" target="_blank">
             <img
             style={{marginLeft:'152px'}}
               src={gmail}
