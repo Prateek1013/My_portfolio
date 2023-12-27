@@ -190,15 +190,14 @@ const projects = [
   {
     name: "Employee_manager",
     description:
-    ``,
+    `A MERN based application that displayes paginated list of employees with different categories and availability. User 
+    can search and filter based on various fields. Also, employees can be grouped according to their work domain and 
+    availability. Teams can be saved, fetched and deleted from the db.
+    `,
     tags: [
       {
         name: "react.js",
         color: "blue-text-gradient",
-      },
-      {
-        name:'node.js',
-        color:'pink-text-gradient'
       },
       {
         name: "mongodb",
@@ -209,12 +208,39 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name:'restapi',
+        name:'scss',
         color:'blue-text-gradient'
       }
     ],
     image: employee_manager,
     source_code_link: "https://github.com/Prateek1013/Heli_frontend",
+  },
+  {
+    name: "Employee_manager_backend",
+    description:
+    `An express server hosted on render handling various api requests like connection to mongodb, search and filtering logic along 
+    with CRUD operations on teams pertaining to the  Employee_manager frontend.
+    `,
+    tags: [
+      {
+        name: "node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name:'mongoose',
+        color:'pink-text-gradient'
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name:'restapi',
+        color:'blue-text-gradient'
+      }
+    ],
+    image: employee_manager,
+    source_code_link: "https://github.com/Prateek1013/Heli_backend",
   },
 
 ];
