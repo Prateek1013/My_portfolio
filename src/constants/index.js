@@ -122,6 +122,31 @@ const experiences = [
 
 const projects = [
   {
+    name: "drawTogether",
+    description:
+    `A whiteboard to draw with multiple users drawing at the same time interactively. Multiple color and stroke choices along with undo, redo functions. User can also 
+    downlaod the drawn canvas in form of .jpeg.
+    `,
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "canvas-api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: algoDs,
+    source_code_link: "https://github.com/Prateek1013/drawTogether",
+
+  },
+
+  {
     name: "Algo-DS search engine",
     description:
     `A nodeJS search engine which allows user to give input regarding any question on cp and
