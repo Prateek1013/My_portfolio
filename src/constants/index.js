@@ -21,6 +21,7 @@ import {
   quizapp,
   sudoku,
   employee_manager,
+  drawTogether
 } from "../assets";
 
 export const navLinks = [
@@ -141,7 +142,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: algoDs,
+    image: drawTogether,
     source_code_link: "https://github.com/Prateek1013/drawTogether",
 
   },

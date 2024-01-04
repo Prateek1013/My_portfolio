@@ -34,7 +34,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import sudoku from "./sudoku.png";
 import employee_manager from "./employee_manager.png"
-
+import drawTogether from "./drawTogether.png"
 export {
   logo,
   backend,
@@ -71,5 +71,6 @@ export {
   algoDs,
   quizapp,
   sudoku,
-  employee_manager
+  employee_manager,
+  drawTogether
 };
